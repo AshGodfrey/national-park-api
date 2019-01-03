@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<title>National Park Search</title>
+</head>
+<body>
+
+		<header>
+			<h1>National Park API Exercise</h1>
+		</header>
+
+		<section class="NPsearch">
+		<form> 
+
+            <label id='parks-search-box'>Enter State: <input type='text' id='park-search' placeholder='Ex: OR, WA, CA'></label><br/>
+
+            <label id='max-results'>Max Results: <input type='number' id='number-of-results' min='1' max='50' value='10'></label><br/>
+            <button type='submit'>submit</button>
+
+		</form>
+	</section>
+
+		<section class="hidden results">
+			<h2>Here are your images</h2>
+			<div id="results">
+					
+			</div>
+		</section>
+
+	</div>
+	 <script src="index.js"></script>
+
+</body>
+</html>
+
